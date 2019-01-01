@@ -1,0 +1,188 @@
+.Header {
+  background-color: #054549;
+  height: 50px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.Header__title {
+  color: #F1F0E2;
+  padding-left: 10px;
+  display: block;
+  font-size: 23px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.Header__right {
+  float: right;
+  padding-right: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.Header__right__contact {
+  padding: 7.5px 15px;
+  font-size: 13px;
+  -webkit-box-shadow: 3px 3px #000000;
+          box-shadow: 3px 3px #000000;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #F1F0E2;
+  background-color: #F25652;
+}
+.Header__right__contact:hover {
+  background-color: #f14743;
+}
+.Splash {
+  height: calc(100vh - 50px);
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: url('/img/splash.png') center center no-repeat;
+  background-size: cover;
+}
+.Splash__cta {
+  padding: 7.5px 15px;
+  font-size: 13px;
+  -webkit-box-shadow: 3px 3px #000000;
+          box-shadow: 3px 3px #000000;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #F1F0E2;
+  background-color: #0BC7B1;
+  padding: 10px 20px;
+  font-size: 15px;
+}
+.Splash__cta:hover {
+  background-color: #0abda8;
+}
+.Splash__sub_one {
+  font-size: 40px;
+  color: #F1F0E2;
+}
+.Splash__sub_two {
+  font-size: 27.5px;
+  color: #F1F0E2;
+  margin-bottom: 10px;
+}
+.PortfolioItem {
+  width: 300px;
+  border: 3px solid #000000;
+  -webkit-box-shadow: 3px 3px #000000;
+          box-shadow: 3px 3px #000000;
+}
+.PortfolioItem__title {
+  font-size: 20px;
+  padding: 15px;
+  border-bottom: 1px solid #000000;
+}
+.PortfolioItem__link {
+  font-size: 15px;
+  padding: 5px 15px;
+  display: block;
+}
+.Portfolio {
+  margin: 50px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.Portfolio h1 {
+  margin-bottom: 10px;
+}
+.Contact {
+  background-color: #e9cc88;
+  width: 100%;
+  min-height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px 0;
+}
+.Contact h1 {
+  padding-bottom: 10px;
+}
+.Contact hr {
+  height: 5px;
+  border: none;
+  border-radius: 100%;
+  background-color: #000000;
+  width: 5px;
+}
+.Contact a {
+  color: #000000;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 10px 15px;
+  margin: 10px;
+  border: 2px solid #000000;
+  -webkit-box-shadow: 3px 3px 0px #000000;
+          box-shadow: 3px 3px 0px #000000;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/roboto-light-webfont.woff2') format('woff2'), url('/fonts/roboto-light-webfont.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/roboto-regular-webfont.woff2') format('woff2'), url('/fonts/roboto-regular-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/roboto-italic-webfont.woff2') format('woff2'), url('/fonts/roboto-italic-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/roboto-medium-webfont.woff2') format('woff2'), url('/fonts/roboto-medium-webfont.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/roboto-bold-webfont.woff2') format('woff2'), url('/fonts/roboto-bold-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
