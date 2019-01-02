@@ -1,0 +1,30 @@
+@import (reference) '../../styles/variables.less';
+
+.Splash {
+  height: calc(100vh - 50px);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: url('/img/splash.png') center center no-repeat;
+  background-size: cover;
+
+  &__cta {
+    .secondary();
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+
+  &__sub {
+    &_one {
+      font-size: 40px;
+      color: @light;
+    }
+    &_two {
+      font-size: 27.5px;
+      color: @light;
+      margin-bottom: 10px;
+    }
+  }
+}

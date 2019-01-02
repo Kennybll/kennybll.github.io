@@ -1,0 +1,27 @@
+@import (reference) '../../styles/variables.less';
+
+.Header {
+  background-color: @header-background;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  &__title {
+    color: @header-title;
+    padding-left: 10px;
+    display: block;
+    font-size: 23px;
+    flex: 1;
+  }
+
+  &__right {
+    float: right;
+    padding-right: 13px;
+    display: flex;
+
+    &__contact {
+      .primary();
+    }
+  }
+}

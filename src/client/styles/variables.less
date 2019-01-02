@@ -1,0 +1,35 @@
+@dark: #054549;
+@light: #F1F0E2;
+@red: #F25652;
+@blue: #0BC7B1;
+@yellow: #e9cc88;
+
+@header-background: @dark;
+@header-title: @light;
+
+.base() {
+  padding: 7.5px 15px;
+  font-size: 13px;
+  box-shadow: 3px 3px #000000;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.primary() {
+  .base();
+  color: @light;
+  background-color: @red;
+  &:hover {
+    background-color: darken(@red, 5%, 'relative');
+  }
+}
+
+.secondary() {
+  .base();
+  color: @light;
+  background-color: @blue;
+  &:hover {
+    background-color: darken(@blue, 5%, 'relative');
+  }
+}
