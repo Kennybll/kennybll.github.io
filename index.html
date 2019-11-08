@@ -1,17 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Kennybll Media</title>
-    <link href="style.css" rel="stylesheet">
+    <title>Dr. J | Motivational Speaker</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header {
+            height: 50%;
+            width: 100%;
+            background-color: #BF0436;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding: 50px 0px;
+            color: #ffffff;
+        }
+        header h1 {
+            font-size: 5em;
+        }
+        header h3 {
+            font-weight: 100;
+        }
+        section {
+            font-size: 25px;
+            padding: 100px 50px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            color: #261A73;
+        }
+        section h5 {
+            font-weight: 300;
+            max-width: 500px;
+        }
+        section:nth-child(3) {
+            background-color: #27238C;
+            color: #ffffff;
+        }
+        section p, #split p {
+            padding: 20px 0px;
+            font-size: 20px;
+            color: #ffffff;
+            text-align: center;
+            max-width: 250px;
+        }
+        #split {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            justify-content: center;
+        }
+        #split p:nth-child(2) {
+            padding-left: 20%;
+        }
+        input, textarea {
+            padding: 10px;
+            border: none;
+            border-bottom: 2px solid #27CDF2;
+            width: 300px;
+            margin-bottom: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #27238C;
+            color: #ffffff;
+        }
+    </style>
 </head>
-
 <body>
-    <div id="root"></div>
-    <script type="text/javascript" src="bundle-main.aa3ec4f9408ac62a2ce2.js"></script>
+    <header>
+        <h1>Dr. J</h1>
+        <h3>Motivational Speaker</h3>
+    </header>
+    <section>
+        <h5>Not only is Dr. J inspiring, but she is also caring, compassionate, and a great professor.</h5>
+    </section>
+    <section>
+        <h3>Testimonials</h3>
+        <section id="split">
+            <p>
+                Dr. J is my favorite professor, and she makes me excited for class everyday. She's a friendly face on campus and I'm always happy to see her. LC
+            </p>
+            <p>
+                Dr. J helps give us more out of college than just going to class. She desires to see us find who we are as people. She actually cares. Nick V
+            </p>
+        </section>
+    </section>
+    <section>
+        <h1>Contact</h1>
+        <input type="text" placeholder="Name" />
+        <input type="email" placeholder="Email" />
+        <textarea placeholder="Information"></textarea>
+        <button>Send</button>
+    </section>
 </body>
-
 </html>
